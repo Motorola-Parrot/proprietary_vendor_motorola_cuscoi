@@ -3279,6 +3279,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/aw963xx_reg_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw963xx_reg_0.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/cps4038.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cps4038.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
+    vendor/motorola/cuscoi/proprietary/vendor/firmware/fs19xx.fsm:$(TARGET_COPY_OUT_VENDOR)/firmware/fs19xx.fsm \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/goodix-csot-gt9916-24020202-65bcaea5-cuscoi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916-24020202-65bcaea5-cuscoi.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/goodix-tm-gt9916-24031804-65F85906-cuscoi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-tm-gt9916-24031804-65F85906-cuscoi.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/st21nfc_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw.bin \
