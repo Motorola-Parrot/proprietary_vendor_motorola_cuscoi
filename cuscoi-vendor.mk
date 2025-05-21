@@ -3276,6 +3276,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
+    vendor/motorola/cuscoi/proprietary/vendor/firmware/aw963xx_reg_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw963xx_reg_0.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/goodix-csot-gt9916-24020202-65bcaea5-cuscoi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916-24020202-65bcaea5-cuscoi.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/goodix-tm-gt9916-24031804-65F85906-cuscoi.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-tm-gt9916-24031804-65F85906-cuscoi.bin \
