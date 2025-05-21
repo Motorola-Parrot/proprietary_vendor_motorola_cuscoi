@@ -5393,7 +5393,7 @@ cc_prebuilt_library_shared {
                 "libcdsprpc",
                 "libbinder_ndk",
                 "libdisplayconfig.qti",
-                "vendor.qti.hardware.display.config-V2-ndk_platform",
+                "vendor.qti.hardware.display.config-V2-ndk",
                 "libz",
                 "libc",
                 "libm",
