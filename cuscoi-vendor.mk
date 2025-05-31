@@ -3385,17 +3385,24 @@ PRODUCT_PACKAGES += \
     libdepthmapwrapper_secure \
     camx.device@3.2-impl \
     camx.device@3.3-impl \
+    camx.device@3.4-ext-impl \
     camx.device@3.4-impl \
+    camx.device@3.5-ext-impl \
     camx.device@3.5-impl \
+    camx.device@3.6-ext-impl \
     camx.device@3.6-impl \
     camx.device@3.7-impl \
+    camx.provider@2.4-external \
+    camx.provider@2.4-impl \
     camx.provider@2.4-legacy \
+    camx.provider@2.5-external \
     camx.provider@2.5-legacy \
     camx.provider@2.6-legacy \
     camx.provider@2.7-legacy \
     com.motorola.hardware.biometric.fingerprint@1.1 \
     com.motorola.hardware.display.panel@1.0 \
     com.motorola.hardware.display.panel@1.1 \
+    com.qti.chiusecaseselector \
     com.qti.feature2.anchorsync \
     com.qti.feature2.demux \
     com.qti.feature2.derivedoffline \
@@ -3432,6 +3439,7 @@ PRODUCT_PACKAGES += \
     libarcsoft_qnnhtp \
     libarcsoft_super_night_raw \
     libbitmlenginev2 \
+    libcamerapostproc \
     libcamxcommonutils \
     libcamxexternalformatutils \
     libcamxfacialfeatures \
