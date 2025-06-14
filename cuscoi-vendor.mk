@@ -3212,7 +3212,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_qsync_video_mode_dsi_visionox_panel_with_DSC.json \
     vendor/motorola/cuscoi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json \
     vendor/motorola/cuscoi/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
-    vendor/motorola/cuscoi/proprietary/vendor/etc/init/motorola.hardware.camera.imgtuner.aidl-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/motorola.hardware.camera.imgtuner.aidl-service.rc \
     vendor/motorola/cuscoi/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
     vendor/motorola/cuscoi/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/motorola/cuscoi/proprietary/vendor/etc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf \
@@ -3478,7 +3477,6 @@ PRODUCT_PACKAGES += \
     libthreadutils \
     libundistort_impl \
     libvidhance \
-    motorola.hardware.camera.imgtuner.aidl-V1-ndk_platform \
     sensors.moto \
     vendor.goodix.hardware.biometrics.fingerprint@2.1 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
@@ -3500,8 +3498,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
-    motorola.hardware.camera.imgtuner.aidl.xml \
     STFlashTool \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
-    motorola.hardware.camera.imgtuner.aidl-service \
     vendor.qti.camera.provider@2.7-service_64
