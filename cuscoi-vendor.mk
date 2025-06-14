@@ -3456,8 +3456,6 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
-    libcv_common \
-    libcvp2_1 \
     libgf_hal \
     libhdr10plus \
     libhdr_impl \
