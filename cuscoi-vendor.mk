@@ -3458,7 +3458,6 @@ PRODUCT_PACKAGES += \
     libcom.qti.chinodeutils \
     libcv_common \
     libcvp2_1 \
-    libeva \
     libgf_hal \
     libhdr10plus \
     libhdr_impl \
@@ -3477,11 +3476,6 @@ PRODUCT_PACKAGES += \
     libopencv \
     libopencv3a \
     libos \
-    libscveCommon \
-    libscveCommon_stub \
-    libscveObjectSegmentation \
-    libscveObjectTracker \
-    libscveObjectTracker_stub \
     libsynx \
     libthreadutils \
     libundistort_impl \
