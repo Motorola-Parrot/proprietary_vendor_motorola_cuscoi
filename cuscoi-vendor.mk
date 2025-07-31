@@ -3271,9 +3271,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/etc/st21nfc_conf_ds.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_ds.txt \
     vendor/motorola/cuscoi/proprietary/vendor/etc/st21nfc_conf_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_ss.txt \
     vendor/motorola/cuscoi/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/motorola/cuscoi/proprietary/vendor/etc/vhw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vhw.xml \
-    vendor/motorola/cuscoi/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
-    vendor/motorola/cuscoi/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/aw963xx_reg_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw963xx_reg_0.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/cps4038.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cps4038.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
@@ -3477,7 +3474,6 @@ PRODUCT_PACKAGES += \
     libthreadutils \
     libundistort_impl \
     libvidhance \
-    sensors.moto \
     vendor.goodix.hardware.biometrics.fingerprint@2.1 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     libQnnHtpV73 \
