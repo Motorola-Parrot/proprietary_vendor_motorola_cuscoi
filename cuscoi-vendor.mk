@@ -3214,6 +3214,24 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_vtdr6130_amoled_video_mode_dsi_visionox_panel_with_DSC.json \
     vendor/motorola/cuscoi/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
     vendor/motorola/cuscoi/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/cache_front_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_front_main \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/cache_rear_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_rear_main \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/cache_rear_uw:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_rear_uw \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/dgain_mask_front_main.bin:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/dgain_mask_front_main.bin \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/dgain_mask_rear_main.bin:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/dgain_mask_rear_main.bin \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/dgain_mask_rear_uw.bin:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/dgain_mask_rear_uw.bin \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/effect_param_front_main.json:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/effect_param_front_main.json \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/effect_param_rear_main.json:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/effect_param_rear_main.json \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/effect_param_rear_uw.json:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/effect_param_rear_uw.json \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/hc_opr_lite_cache_front_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/hc_opr_lite_cache_front_main \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/hc_opr_lite_cache_rear_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/hc_opr_lite_cache_rear_main \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/hc_opr_lite_cache_rear_uw:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/hc_opr_lite_cache_rear_uw \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/siq_ocl_cache_front_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/siq_ocl_cache_front_main \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/siq_ocl_cache_rear_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/siq_ocl_cache_rear_main \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/siq_ocl_cache_rear_uw:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/siq_ocl_cache_rear_uw \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/superiq_model_front_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/superiq_model_front_main \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/superiq_model_rear_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/superiq_model_rear_main \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/superiq_model_rear_uw:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/superiq_model_rear_uw \
     vendor/motorola/cuscoi/proprietary/vendor/etc/libnfc-hal-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-hal-st.conf \
     vendor/motorola/cuscoi/proprietary/vendor/etc/libnfc-nci-st.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci-st.conf \
     vendor/motorola/cuscoi/proprietary/vendor/etc/sensors/config/icm4x6xx_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/icm4x6xx_0.json \
@@ -3271,6 +3289,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/etc/sensors/sns_reg_config:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sns_reg_config \
     vendor/motorola/cuscoi/proprietary/vendor/etc/st21nfc_conf_ds.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_ds.txt \
     vendor/motorola/cuscoi/proprietary/vendor/etc/st21nfc_conf_ss.txt:$(TARGET_COPY_OUT_VENDOR)/etc/st21nfc_conf_ss.txt \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/tetras/portrait_repair_composite.model:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/portrait_repair_composite.model \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/tetras/portrait_repair_composite_rear.model:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/portrait_repair_composite_rear.model \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/tetras/super_resolution/sr_models.bin:$(TARGET_COPY_OUT_VENDOR)/etc/tetras/super_resolution/sr_models.bin \
     vendor/motorola/cuscoi/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/aw963xx_reg_0.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw963xx_reg_0.bin \
     vendor/motorola/cuscoi/proprietary/vendor/firmware/cps4038.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/cps4038.bin \
@@ -3299,7 +3320,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/lib64/camera/fdconfigvideolite.bin:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/fdconfigvideolite.bin
 
 PRODUCT_PACKAGES += \
-    camera.device@1.0-impl \
     com.mot.eeprom.mot_gt24p128f_imx896_eeprom \
     com.mot.eeprom.mot_gt24p64e_gc13a2_eeprom \
     com.mot.eeprom.mot_gt24p64e_hi1336_eeprom \
@@ -3425,7 +3445,14 @@ PRODUCT_PACKAGES += \
     com.qti.feature2.statsregeneration \
     com.qti.feature2.stub \
     com.qti.feature2.swmf \
+    com.qti.settings.clarence \
+    com.qti.settings.netrani \
     com.qti.stats.common \
+    com.qualcomm.mcx.distortionmapper \
+    com.qualcomm.mcx.linearmapper \
+    com.qualcomm.mcx.policy.mfl \
+    com.qualcomm.mcx.policy.xr \
+    com.qualcomm.qti.mcx.usecase.extension \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.goodix.default \
@@ -3433,11 +3460,28 @@ PRODUCT_PACKAGES += \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
     libBSTSWAD \
+    libPlatformValidatorShared \
+    libSNPE \
+    libSnpeHtpPrepare \
+    libSnpeHtpV68Stub \
+    libSnpeHtpV69Stub \
+    libSnpeHtpV73Stub \
+    libaidenoiser \
+    libaidenoiserv2 \
+    libanc_hdr \
+    libanc_hdr_adapter_front_main \
+    libanc_hdr_adapter_rear_main \
+    libanc_hdr_adapter_rear_uw \
     libarcsoft_qnnhtp \
     libarcsoft_super_night_raw \
     libaualgo_azp_component \
     libaualgo_azp_wrapper \
+    libbitmlengine \
     libbitmlenginev2 \
+    libc++_shared \
+    libcalculator \
+    libcalculator_htp \
+    libcamera_nn_stub \
     libcamerapostproc \
     libcamxcommonutils \
     libcamxexternalformatutils \
@@ -3458,6 +3502,13 @@ PRODUCT_PACKAGES += \
     libgf_hal \
     libhdr10plus \
     libhdr_impl \
+    libhme \
+    libipebpsstriping \
+    libipebpsstriping170 \
+    libipebpsstriping480 \
+    libjpege \
+    libmfGhostDetection \
+    libmfec \
     libmmcamera_bestats \
     libmmcamera_cac \
     libmmcamera_lscv35 \
@@ -3468,13 +3519,24 @@ PRODUCT_PACKAGES += \
     libmot_afd \
     libmot_engine_settings \
     libmotcameramodulemonitor \
+    libmotohid \
     libmotoisdataqueue \
     libmpbase \
     libopencv \
     libopencv3a \
+    libopestriping \
     libos \
+    libportrait_repair_ppl3_ocl \
+    libqll \
+    libqll10 \
+    libqllengine \
+    libqshcamera \
+    libsfeShiftExtrapolation \
+    libswregistrationalgo \
     libsynx \
+    libtfestriping \
     libthreadutils \
+    libubifocus \
     libundistort_impl \
     libvidhance \
     vendor.goodix.hardware.biometrics.fingerprint@2.1 \
@@ -3492,8 +3554,6 @@ PRODUCT_PACKAGES += \
     libcamera_nn_skel \
     libhdr_skel \
     libmctfengine_skel \
-    vendor.qti.hardware.camera.postproc@1.0 \
-    vendor.qti.hardware.seccam@1.0 \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
