@@ -3194,6 +3194,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/nn_vad_models/fai__3.0.0_0.0__eai_1.36_enpu2.pmd \
     vendor/motorola/cuscoi/proprietary/vendor/etc/acdbdata/parrot_qrd/QRD_parrot_acdb_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd/QRD_parrot_acdb_cal.acdb \
     vendor/motorola/cuscoi/proprietary/vendor/etc/acdbdata/parrot_qrd/QRD_parrot_workspaceFileXml.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/parrot_qrd/QRD_parrot_workspaceFileXml.qwsp \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/aualgo/aualgo_comp_azpp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/aualgo/aualgo_comp_azpp.conf \
     vendor/motorola/cuscoi/proprietary/vendor/etc/camera/SwadAIMod.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/SwadAIMod.bin \
     vendor/motorola/cuscoi/proprietary/vendor/etc/camera/SwadCalib.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/SwadCalib.bin \
     vendor/motorola/cuscoi/proprietary/vendor/etc/camera/SwadParamList.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/SwadParamList.txt \
@@ -3434,6 +3435,8 @@ PRODUCT_PACKAGES += \
     libBSTSWAD \
     libarcsoft_qnnhtp \
     libarcsoft_super_night_raw \
+    libaualgo_azp_component \
+    libaualgo_azp_wrapper \
     libbitmlenginev2 \
     libcamerapostproc \
     libcamxcommonutils \
