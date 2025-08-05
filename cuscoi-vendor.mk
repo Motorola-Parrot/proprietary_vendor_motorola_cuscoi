@@ -3541,19 +3541,6 @@ PRODUCT_PACKAGES += \
     libvidhance \
     vendor.goodix.hardware.biometrics.fingerprint@2.1 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
-    libQnnHtpV73 \
-    libQnnHtpV73Skel \
-    libSnpeDspV65Skel \
-    libSnpeDspV66Skel \
-    libSnpeHtpV73Skel \
-    libadsp_jpege_skel \
-    libapn_dsp_skel \
-    libarc_htp_driver_skel \
-    libbitml_nsp_skel \
-    libbitml_nsp_v2_skel \
-    libcamera_nn_skel \
-    libhdr_skel \
-    libmctfengine_skel \
     HotwordEnrollmentOKGoogleHEXAGON_WIDEBAND \
     HotwordEnrollmentXGoogleHEXAGON_WIDEBAND \
     com.android.hotwordenrollment.common.util \
