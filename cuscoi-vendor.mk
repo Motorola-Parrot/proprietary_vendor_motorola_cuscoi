@@ -3216,7 +3216,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_tm_667_1080p_dsc_144hz_fhd.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_tm_667_1080p_dsc_144hz_fhd.json \
     vendor/motorola/cuscoi/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
     vendor/motorola/cuscoi/proprietary/vendor/etc/init/vendor.qti.camera.provider@2.7-service_64.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.camera.provider@2.7-service_64.rc \
-    vendor/motorola/cuscoi/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.1-service.rc \
     vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/cache_front_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_front_main \
     vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/cache_rear_main:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_rear_main \
     vendor/motorola/cuscoi/proprietary/vendor/etc/jiigan/cache_rear_uw:$(TARGET_COPY_OUT_VENDOR)/etc/jiigan/cache_rear_uw \
@@ -3471,7 +3470,6 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.qti.chi.override \
     fingerprint.goodix.default \
-    vendor.qti.esepowermanager@1.1-impl \
     libBSTHDRDETECT \
     libBSTMultiExpoGainHDR \
     libBSTNodeUtils \
@@ -3516,8 +3514,6 @@ PRODUCT_PACKAGES += \
     libcamxtintlessalgo \
     libchilog \
     libcom.qti.chinodeutils \
-    libesepmconfig \
-    libesesbprovision \
     libgf_hal \
     libhdr10plus \
     libhdr_impl \
@@ -3560,8 +3556,6 @@ PRODUCT_PACKAGES += \
     libvideoml \
     libvidhance \
     vendor.goodix.hardware.biometrics.fingerprint@2.1 \
-    vendor.qti.esepowermanager@1.0 \
-    vendor.qti.esepowermanager@1.1 \
     vendor.qti.hardware.camera.postproc@1.0-service-impl \
     MotoSignatureApp \
     MotCamera3AI \
@@ -3576,5 +3570,4 @@ PRODUCT_PACKAGES += \
     STFlashTool \
     android.hardware.biometrics.fingerprint@2.1-goodixservice \
     vendor.qti.camera.provider@2.7-service_64 \
-    vendor.qti.esepowermanager@1.1-service \
     motsettings
