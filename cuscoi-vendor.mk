@@ -3212,6 +3212,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/cuscoi/proprietary/vendor/etc/camera/mot_engine_config.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mot_engine_config.bin \
     vendor/motorola/cuscoi/proprietary/vendor/etc/camera/vidhance.lic:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance.lic \
     vendor/motorola/cuscoi/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
+    vendor/motorola/cuscoi/proprietary/vendor/etc/display/FOSSConfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/display/FOSSConfig.xml \
     vendor/motorola/cuscoi/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_csot_667_1080p_dsc_144hz_fhd.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_csot_667_1080p_dsc_144hz_fhd.json \
     vendor/motorola/cuscoi/proprietary/vendor/etc/display/qdcm_calib_data_mipi_mot_vid_tm_667_1080p_dsc_144hz_fhd.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_mipi_mot_vid_tm_667_1080p_dsc_144hz_fhd.json \
     vendor/motorola/cuscoi/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-goodixservice.rc \
