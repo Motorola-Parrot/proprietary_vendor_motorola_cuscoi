@@ -1,5 +1,5 @@
 
-s21417spn_3d_mobil_20_ràÂ¡§"Ã 
+s21417spn_3d_mobil_20_rŒÅ¡§"Ã 
 carrier_volte_available_bool(#
 moto_data_stall_check_count_int2
 moto_smart_5g_enabled_bool( 

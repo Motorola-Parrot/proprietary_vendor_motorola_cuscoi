@@ -1,5 +1,5 @@
 
-s24801àÂ¡§0.
+s24801ŒÅ¡§0.
 EMT WAP
 wap.emt.ee2217.71.32.236:8080"·(
 $carrier_default_wfc_ims_enabled_bool($

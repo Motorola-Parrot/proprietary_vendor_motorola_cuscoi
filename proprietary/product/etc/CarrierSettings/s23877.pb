@@ -1,5 +1,5 @@
 
-s23877àÂ¡§f 
+s23877ŒÅ¡§f 
 Telenor InternetInternetB
 Telenor MMStelenorZhttp://mms.telenor.dkb212.88.64.8j8080"¼$
  carrier_default_wfc_ims_mode_int,

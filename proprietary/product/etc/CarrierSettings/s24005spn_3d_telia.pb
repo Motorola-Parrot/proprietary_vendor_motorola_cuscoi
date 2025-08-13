@@ -1,5 +1,5 @@
 
-s24005spn_3d_teliaàÂ¡§"Ô(
+s24005spn_3d_teliaŒÅ¡§"Ô(
 $carrier_default_wfc_ims_enabled_bool($
  carrier_default_wfc_ims_mode_int,
 (carrier_default_wfc_ims_roaming_mode_int9

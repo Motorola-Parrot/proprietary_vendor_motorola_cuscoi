@@ -1,5 +1,5 @@
 
-s20827àÂ¡§"¦
+s20827ŒÅ¡§"¦
 maxImageHeight˜
 maxImageWidth #
 moto_data_stall_check_count_int2'

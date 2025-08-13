@@ -1,5 +1,5 @@
 
-s26210àÂ¡§"¼
+s26210ŒÅ¡§"¼
 maxImageHeight˜
 maxImageWidth 
 maxSubjectLengthP#
